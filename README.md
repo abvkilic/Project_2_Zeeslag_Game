@@ -1,4 +1,4 @@
-# Project_2_Zeeslag_Game
+# Project 2 - Zeeslag Game
 
 Dit spel is gemaakt in samenwerking met de groepsleden Joost Zonneveld, Admir Osmanovic, Omar Zoundri en Shreyas Pooran.
 
