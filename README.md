@@ -1,7 +1,7 @@
-# Project 2 - Zeeslag Game
+# Project 2 - Battleport Game
 
-Dit spel is gemaakt in samenwerking met de groepsleden Joost Zonneveld, Admir Osmanovic, Omar Zoundri en Shreyas Pooran.
+This game is made by Abdulvahid Kilic, Admir Osmanovic, Joost Zonneveld, Omar Zoundri and Shreyas Pooran.
 
-Het spel is een digitale vorm van **Zeeslag** gemaakt in 3 weken wat een project is van de **Hogeschool Rotterdam**.
+The game is a digital version of **Battleport** made in 3 weeks as a project for the **University of Rotterdam**.
 
-Het spel is geprogrammeerd in de taal **Python**.
+The game is programmed with **Python**.
