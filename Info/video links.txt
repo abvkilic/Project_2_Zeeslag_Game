@@ -1,0 +1,4 @@
+Ranj presentation: https://youtu.be/nmjrvrSnvN4
+Modulevijzer presentation: https://youtu.be/M2BQKbrDoTI
+Pygame presentation (part 1): https://youtu.be/PMQl7ky1_l8
+Pygame presentation (part 2): https://youtu.be/fZVIC2IVaGM

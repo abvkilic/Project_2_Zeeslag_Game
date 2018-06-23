@@ -1,0 +1,81 @@
+/* create tables */
+
+CREATE TABLE IF NOT EXISTS Deck(
+	card_id serial,
+    cardType integer,
+    cardSort varchar(30),
+    cardName varchar(30),
+    aantal integer,
+    Primary Key(card_id)
+);
+
+
+CREATE TABLE IF NOT EXISTS Highscore(
+    id serial,
+    playername varchar(30),
+    beurten integer,
+    Primary Key(id)
+);
+
+-- INSERT INTO Highscore (playername, beurten) VALUES('Naam', 3);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (1, 'Offensive', 'FMJ upgrade', 2);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (1, 'Offensive', 'Rifling', 2);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (1, 'Offensive','Advanced Rifling', 2);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (1, 'Offensive', 'Naval Mine', 6);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (1, 'Offensive', 'EMP upgrade', 4);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (1, 'Defensive', 'Reinforced Hull', 2);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (1, 'Defensive','Sonar', 4);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (1, 'Defensive', 'Smokescreen', 2);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (1, 'Defensive', 'Sabotage', 2);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (1, 'Support', 'Backup', 2);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (1, 'Support', 'Extra Fuel II', 4);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (1, 'Support', 'Extra Fuel', 6);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (1, 'Support', 'Rally', 1);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (1, 'Support', 'Adrenaline Rush', 4);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (2, 'Special', 'Repair', 2);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (1, 'Special', 'Flak Armor', 2);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (2, 'Special', 'Hack Intel',1);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (2, 'Special', 'Far Sight', 1);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (2, 'Special', 'Aluminium Hull', 1);
+
+INSERT INTO Deck (cardType, cardSort, cardName, aantal) 
+VALUES (2, 'Special', 'Jack Sparrow', 1);
+        
